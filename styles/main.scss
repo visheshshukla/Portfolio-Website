@@ -1,0 +1,45 @@
+@import './shared/fonts';
+@import './shared/colors';
+@import './shared/mixins';
+
+// PAGES
+@import './portfolios';
+@import './index';
+@import './about';
+
+// COMPONENTS
+@import './header';
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', 'Helvetica';
+}
+
+.self-typed {
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.base-page {
+    padding-top: 150px 0 100px 0;
+    color: black;
+    background-color: #ecedee;
+    min-height: 100vh;
+  
+    .page-header {
+      .page-header-title {
+        font-weight: 700;
+        color: black;
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+    }
+  }
